@@ -20,28 +20,28 @@ https://youtu.be/bQlPj0R8cR0
 
 ## Images of Solution
 Front Page: Intermodal Cargo System Page
-![Intermodal Cargo System Page]()
+![Intermodal Cargo System Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Intermodal%20Cargo%20System%20Page.png)
 
 Warehouse Dashboard Page: 
-![Warehouse Dashboard Page]()
+![Warehouse Dashboard Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Warehouse%20Dashboard.png)
 
 Individual Storage Page: 
-![Individual Storage Page]()
+![Individual Storage Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Individual%20Storage%20page%20with%20cargo%20info.png)
 
 Add item Page: 
-![Add item Page]()
+![Add item Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Additem%20page.png)
 
 Successful Added Page: 
-![Successfully added item Page]()
+![Successfully added item Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Item%20Successfully%20Added%20Page.png)
 
 Delete item Page: 
-![Delete item item Page]()
+![Delete item item Page](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Delete%20item%20page.png)
 
 
 ## Run Locally
 
 Local Setup:
-![Local set up image]()
+![Local set up image](https://github.com/JamesTzh/Intermodal-Cargo-System/blob/main/Images/Development%20setup.png)
 
 ## Tech Stack
 
