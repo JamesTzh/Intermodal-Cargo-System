@@ -1,0 +1,100 @@
+html{
+    background: url(../assets/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.main_main{
+    padding: 0.5em;
+    height: 100%;
+}
+
+.header{
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.btn_container{
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1em; /* Add some top margin for spacing */
+}
+
+.back{
+    background-color: #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em;
+    margin-right: 1em; /* Space between buttons */
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.back:hover {
+    transform: scale(1.1);
+    background-color: #f00; /* Change color on hover */
+}
+
+.storage_info{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em;
+    justify-content: space-around;
+}
+
+.storage_info div{
+    font-size: 1.5rem;
+}
+
+.del{
+    background-color: #f00;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em;
+    margin-right: 1em; /* Space between buttons */
+    margin-left: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.del:hover {
+    transform: scale(1.1);
+}
+
+.cargo_container{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.cargo_container::-webkit-scrollbar{
+    width: 0.5em;
+}
+
+.cargo_container::-webkit-scrollbar-track{
+    background: #f0f0f0;
+    border-radius: 0.5em;
+}
+
+.cargo_container::-webkit-scrollbar-thumb{
+    background-color: #626262;
+    border-radius: 0.5em;
+    border: 0.1em solid #f0f0f0;
+}

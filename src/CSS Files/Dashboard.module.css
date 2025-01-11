@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.main_main {
+    padding: 0.5em;
+    background: url(../assets/Background.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.header {
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: flex-start; /* Align Back button to the left */
+    margin-left: 1em; /* Add some left margin */
+    margin-top: 1em; /* Add some top margin for spacing */
+}
+
+.btn_container_right {
+    display: flex;
+    justify-content: flex-end; /* Align Add Item button to the right */
+    margin-right: 1em; /* Add some right margin */
+    margin-top: -3.5em; /* Adjust to align with header */
+}
+
+.back_button {
+    background-color: #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em;
+    margin-right: 1em; /* Space between buttons */
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.back_button:hover {
+    transform: scale(1.1);
+    background-color: #f00; /* Change color on hover */
+}
+
+.add_items {
+    background-color: #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em; /* Adjust padding to match size with Back button */
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.add_items:hover {
+    transform: scale(1.1);
+    background-color: #16d523;
+}
+
+.storage_container {
+    margin-top: 0.3em;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2em;
+    text-align: center;
+    padding: 1.5em;
+    overflow-y: auto;
+}
+
+.storage_container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.storage_container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 0.5em;
+}
+
+.storage_container::-webkit-scrollbar-thumb {
+    background-color: #626262;
+    border-radius: 0.5em;
+    border: 0.1em solid #f0f0f0;
+}
+
+.storage_box {
+    background-color: white;
+    border-radius: 0.5em;
+    min-width: 8em;
+    min-height: 8em;
+    align-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.storage_box:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
