@@ -1,7 +1,7 @@
 
 # PSA Hackerton
 
-Cookbook done by Algochefs
+Intermodal Cargo System done by Algochefs
 
 Our solution utilize a fine-tuned GPT-AI model to optimally cluster and plan Cargos shipments, prioritising Efficiency and Sustainability.
 
